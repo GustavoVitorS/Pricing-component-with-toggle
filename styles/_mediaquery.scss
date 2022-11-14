@@ -1,0 +1,35 @@
+@media screen and (max-width: 1000px) {
+	.wrapper {
+		width: 90%;
+	}
+
+	.top__selection {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	main {
+		background-size: 50%;
+		background-position: bottom left, 140% 0;
+	}
+	.top {
+		width: 70%;
+		&__selection {
+			width: 100%;
+		}
+	}
+
+	.cards {
+		flex-wrap: wrap;
+
+		&__side-card,
+		&__middle-card {
+			border-radius: 2.5%;
+			margin-top: 1.5rem;
+			margin-bottom: 1.5rem;
+			flex: 1 1 350px;
+			min-height: 67vh;
+		}
+	}
+}
